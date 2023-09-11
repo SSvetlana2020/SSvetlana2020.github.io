@@ -64,7 +64,7 @@ body {
     padding-top: 230px;
 }
 .window__wrap--sofa {
-    background: url(../img/home/sv.jpg) center/cover no-repeat;
+    background: url(../img/home/im.jpg)  left 100% / contain no-repeat;
 }
 .window__wrap--device {
     background: url(../img/home/device.png) center/cover no-repeat;
@@ -775,6 +775,9 @@ a:hover .topcoll__item {
     }
 }
 @media (max-width: 680px) {
+    .window {
+        padding-top: 30px;
+    }
     .lproducts__items {
         grid-template-columns: repeat(1, 1fr);
     }
